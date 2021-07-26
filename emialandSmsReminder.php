@@ -12,7 +12,7 @@ require 'plugin-update-checker-master/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
   'https://github.com/manager-wiseTech/email-sms-class-reminder-ee3/',
   __FILE__,
-  'fds-ee3-reminder-plugin'
+  'fds-email-sms-class-reminder-ee3'
 );
 
 //Set the branch that contains the stable release.
